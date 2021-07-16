@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  	background: #476072;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: orangered;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+	cursor: url("../img/img/Alien Space Rocket Ship.cur"), auto;
+}
+
+#wrapper{
+	background: url("../img/img/d482bacb8f4cf95d3faf043c42925d1c.jpg");
+	
+}
+
+.header{
+/*	background: #334257;*/
+}
+
+.menu{
+	display: flex;
+	justify-content: center;
+/*	background: green;*/
+	
+}
+
+.customheader{
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+
+.menu ul{
+	list-style: none;
+	display: flex;
+/*	background: red;*/
+	align-items: center;
+}
+
+.menu ul li{
+	margin: 0 0 0 70px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-size: 24px;
+	color: #EEEEEE;
+	transition-duration: 1s;
+	font-weight: 400;
+	
+}
+
+.menu ul li a:hover{
+	color: red;
+	font-size: 32px;
+}
+
+.menu img{
+	width: 200px;
+}
+
+.active{
+	color: orangered!important;
+}
+
+
+.banner{
+
+	margin: 0 auto;
+	height: 700px;
+/*	padding: 60px 0;*/
+/*	text-align: center;*/
+/*	background: url("../img/img/d482bacb8f4cf95d3faf043c42925d1c.jpg");*/
+	display: flex;
+	justify-content: center;
+	
+
+	
+}
+
+.banner span{
+	font-size: 80px;
+/*	background: aqua;*/
+	position: absolute;
+	
+	
+
+}
+
+.banner img{
+/*	background: grey;*/
+	position: absolute;
+	top: 20px;
+	right: 500px;
+}
+
+.containerbanner{
+	width: 1500px;
+	margin: 0 auto;
+/*	background: red;*/
+	position: relative;
+}
+
+.tieude1{
+	left: 50px;
+	top: 200px;
+	font-weight: 100;
+	color: white;
+}
+
+.tieude2{
+	left: 50px;
+	top: 320px;
+	font-weight: 100;
+	color: white;
+}
+
+.tieude3{
+	left: 180px;
+	top: 320px;
+	font-weight: 600;
+	color: orangered;
+}
+
+.tieude4{
+	right: 0;
+	top: 200px;
+	font-weight: 100;
+	color: white;
+}
+
+.tieude5{
+	right: 0;
+	top: 320px;
+	font-weight: 600;
+	color: orangered;
+	
+	
+}
+
+
+
+h1{
+	margin: 20px;
+	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: white;
+}
+
+
+.tab{
+	text-align: center;
+	padding: 20px;
+}
+.tablinks{
+	border: none;
+	background: none;
+	font-size: 32px;
+	margin: 0 12px;
+	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: white;
+	font-weight: 700;
+	transition-duration: 1s;
+	cursor: pointer;
+}
+.active1{
+	-webkit-text-fill-color: red; /* Will override color (regardless of order) */
+  	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: white;
+	font-size: 40px;
+	transition-duration: 1s;
+}
+
+.tablinks:hover{
+	font-size: 40px;
+}
+
+.cs-gallery{
+	justify-content: center;
+	background:rgba(168,197,199,1.00);
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.cs-gallery img{
+	height: 300px;
+	margin: 0 5px;
+}
+
+/*
+.footer {
+	padding: 100px 0;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+*/
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+/*	background: aqua;*/
+	padding: 30px
+}
+
+.icon-box{
+/*	background: red;*/
+	display:flex;
+	padding-left: 60px;
+/*	border: outset;*/
+	color: white;box-sizing: border-box;
+}
+.custom{
+	justify-content: center;
+}
+
+.text{
+	margin-left: 10px;
+/*	background: aqua;*/
+}
+
+.up{
+	position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 20px;
+    right: 30px;
+/*	background: red;*/
+}
+
+/*
+.up a {
+	background-image: url(../img/img/noun_Rocket_107386.png);
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    font-size: 0;
+}
+*/
+
+.up img{
+	width: 100%;
+}
+
+.footer span{
+	font-family: 'Qwigley', cursive;
+	font-size: 80px;
+	color:white;
+}
+
+.facebook{
+	position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 120px;
+    right: 30px;
+/*	background: red;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.be{
+	position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 200px;
+    right: 30px;
+/*	background: red;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.iconright ion-icon {
+  font-size: 64px;
+	color: rgba(83,128,219,1.00);
+}
+
+
+/*about*/
+
+.icon{
+/*	background: blue;*/
+	display: flex;
+	justify-content: center;
+}
+
+.noidung{
+/*	background: red;*/
+	display: flex;
+	justify-content: center;
+}
+
+.customabout{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	padding: 0 50px;
+/*	background: red;*/
+	margin-top: 20px;
+}
+
+.customabout ion-icon{
+	font-size: 64px;
+	color: red;
+}
+
+
+
+.customcomment{
+	width: 100%;
+	height: 100px;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.customtype{
+	height: 40px;
+	width: 100%;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 18px;
+}
+
+td{
+	color:white;
+	height: 60px;
+	font-size: 20px;
+}
+
+.customnut{
+	border-radius: 10px;
+	width: 120px;
+	height: 40px;
+	background: none;
+	color: white;
+	font-size: 20px;
+	border: solid 2px white;
+}
+
+.customnut1{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+form{
+	display: flex;
+	justify-content: center;
+}

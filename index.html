@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/grid.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="header">
+			
+			<div class="container customheader">
+				<div class="logo">
+					
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a class="active" href="#">HOME</a></li>
+						<li><a href="About.html">ABOUT</a></li>
+						<li><a href=""><img src="img/img/fa86230c1983d421289961cfa371f4b8.png" alt=""></a></li>
+						<li><a href="Skill.html">SKILL</a></li>
+						<li><a href="Contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+<!--				menu-->
+			</div>
+		</div>
+<!--		header-->
+		<div class="main">
+			<div class="banner">
+					<div class="containerbanner">
+					<span class="tieude1">Hi! Guys</span>
+					<span class="tieude2">I'm</span>
+					<span class="tieude3">VIỆT</span>
+					<img src="img/img/185631212_4013362775383793_5056337686647269616_n.png" alt="">
+					<span class="tieude4">Welcome to</span>
+					<span class="tieude5">My World</span>
+					
+					</div>
+			</div>
+<!--			banner-->
+			<div class="gallery">
+					<div class="tab">
+				  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">All</button>
+				  <button class="tablinks" onclick="openCity(event, 'Paris')">Photoshop</button>
+				  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Illustrator</button>
+				</div>
+
+				<div id="London" class="tabcontent">
+					<div class="row cs-gallery">
+					  	<div>
+						<img src="img/img/49.jpg" alt="">
+						<img src="img/img/IPad copy.jpg" alt="">
+						<img src="img/img/Ipad2.jpg" alt="">
+						<img src="img/img/ADIDAS.jpg" alt="">
+						</div>
+						
+						<div>
+							<img src="img/img/627.jpg" alt="">
+							<img src="img/img/52.jpg" alt="">
+							<img src="img/img/Magazine.jpg" alt="">
+						</div>
+						
+						<div>
+							<img src="img/img/OREO.jpg" alt="">
+							<img src="img/img/270.jpg" alt="">
+						</div>
+						
+						<div>
+							<img src="img/img/419.jpg" alt="">
+							<img src="img/img/LEAFLET-01.jpg" alt="">
+							<img src="img/img/LEAFLET-02.jpg" alt="">
+						</div>
+						
+						<div>
+							<img src="img/img/SOCSOCK/POSTER.png" alt="">
+							<img src="img/img/SOCSOCK/ss_397058986_1741.jpg" alt="">
+							<img src="img/img/SOCSOCK/standeeVIET.jpg" alt="">
+							<img src="img/img/SOCSOCK/7762 [Converted].jpg" alt="">
+							<img src="img/img/SOCSOCK/poster2.jpg" alt="">
+							<img src="img/img/SOCSOCK/551.jpg" alt="">
+						</div>
+					</div>	
+				</div>
+
+				<div id="Paris" class="tabcontent">
+				  <div class="row cs-gallery">
+					  <div>
+						<img src="img/img/49.jpg" alt="">
+						<img src="img/img/IPad copy.jpg" alt="">
+						<img src="img/img/Ipad2.jpg" alt="">
+						<img src="img/img/ADIDAS.jpg" alt="">
+						</div>
+						
+						<div>
+							<img src="img/img/627.jpg" alt="">
+							<img src="img/img/52.jpg" alt="">
+							<img src="img/img/Magazine.jpg" alt="">
+						</div>
+						
+						<div>
+							<img src="img/img/OREO.jpg" alt="">
+							<img src="img/img/270.jpg" alt="">
+						</div>
+					  
+					</div>	 
+				</div>
+
+				<div id="Tokyo" class="tabcontent">
+				  <div class="row cs-gallery">
+					  
+					  <div>
+							<img src="img/img/419.jpg" alt="">
+							<img src="img/img/LEAFLET-01.jpg" alt="">
+							<img src="img/img/LEAFLET-02.jpg" alt="">
+						</div>
+						
+						<div>
+							<img src="img/img/SOCSOCK/POSTER.png" alt="">
+							<img src="img/img/SOCSOCK/ss_397058986_1741.jpg" alt="">
+							<img src="img/img/SOCSOCK/standeeVIET.jpg" alt="">
+							<img src="img/img/SOCSOCK/7762 [Converted].jpg" alt="">
+							<img src="img/img/SOCSOCK/poster2.jpg" alt="">
+							<img src="img/img/SOCSOCK/551.jpg" alt="">
+						</div>
+					</div>	
+				</div>
+				
+			</div>
+		</div>
+		<div class="footer">
+			<div>
+				<span>Portfolio | </span>
+				<span style="color: red;font-weight: 500">Viet</span>
+			</div>
+			<p style="color: white; font-size: 20px">@ Designed by Vịt</p>
+		</div>
+		
+	</div>
+	
+	
+	<div class="iconright">
+		<div class="up"><a href="#"><img src="img/img/noun_Rocket_107386.png" alt=""></a></div>
+		<div class="facebook"><a href="#"><ion-icon name="logo-facebook" ></ion-icon></a></div>
+		<div class="be"><a href="#"><ion-icon name="logo-behance"></ion-icon></a></div>
+	</div>
+	<script>
+	function openCity(evt, cityName) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active1", "");
+	  }
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active1";
+	}
+
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+	</script>
+	
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
